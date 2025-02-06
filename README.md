@@ -63,14 +63,3 @@ mvn spring-boot:run
 }
 ```
 
-## Development
-
-1. Run PostgreSQL:
-```bash
-sudo service postgresql start
-```
-
-2. Run application in dev mode:
-```bash
-mvn spring-boot:run -Dspring-boot.run.profiles=dev
-```

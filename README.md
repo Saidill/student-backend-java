@@ -1,6 +1,5 @@
 # Student Crud System
-
-A Spring Boot application for managing student data with PostgreSQL database.
+A RESTful API for managing student data using Spring Boot and a PostgreSQL database
 
 ## Prerequisites
 

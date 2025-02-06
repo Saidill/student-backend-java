@@ -2,10 +2,9 @@
 A RESTful API for managing student data using Spring Boot and a PostgreSQL database
 
 ## Prerequisites
-
+Before running the project, ensure you have the following installed:
 - Java 17 JDK
 - PostgreSQL 12+
-- Maven 3.6+
 
 ## Tech Stack
 
@@ -36,7 +35,7 @@ spring.datasource.password=your_password
 
 3. Build project:
 ```bash
-mvn clean install
+./gradlew clean build
 ```
 
 4. Run application:

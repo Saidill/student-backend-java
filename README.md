@@ -1,4 +1,4 @@
-# Student Management System
+# Student Crud System
 
 A Spring Boot application for managing student data with PostgreSQL database.
 
@@ -20,7 +20,7 @@ A Spring Boot application for managing student data with PostgreSQL database.
 
 1. Clone repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/Saidill/student-backend-java.gitrea
 cd [project-directory]
 ```
 

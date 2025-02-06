@@ -20,7 +20,7 @@ A Spring Boot application for managing student data with PostgreSQL database.
 
 1. Clone repository:
 ```bash
-git clone https://github.com/Saidill/student-backend-java.gitrea
+git clone https://github.com/Saidill/student-backend-java.git
 cd [project-directory]
 ```
 

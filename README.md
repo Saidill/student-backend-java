@@ -24,7 +24,7 @@ cd student-backend-java
 
 2. Configure PostgreSQL:
 ```bash
-# Create database
+# Create a database named student_db in PostgreSQL
 createdb student_db
 
 # Update application.properties with your credentials:
@@ -40,7 +40,7 @@ spring.datasource.password=your_password
 
 4. Run application:
 ```bash
-mvn spring-boot:run
+./gradlew bootRun
 ```
 
 ## API Endpoints
@@ -53,6 +53,8 @@ mvn spring-boot:run
 - PUT `/api/students/{id}` - Update student
 - DELETE `/api/students/{id}` - Delete student
 
+## Example Request/Response
+### Create a Student (POST /api/students)
 ### Request Body Example
 
 ```json
@@ -62,4 +64,13 @@ mvn spring-boot:run
   "tanggalLahir": "2000-01-01"
 }
 ```
+### Response Body Example
 
+```json
+{
+  "id": 1,
+  "namaDepan": "John",
+  "namaBelakang": "Doe",
+  "tanggalLahir": "2000-01-01"
+}
+```
